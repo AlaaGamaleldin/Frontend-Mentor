@@ -29,7 +29,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 2rem;
-    margin-top: 100px;
+    margin-top: 90px;
     background: #fff;
     overflow: hidden;
     border-radius: 10px;
