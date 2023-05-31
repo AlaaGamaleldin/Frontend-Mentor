@@ -93,7 +93,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-.success-active{
+#success-active{
     display: none;
     width: 310px;
     height: 350px;
@@ -102,22 +102,22 @@ body{
     padding: 30px;
     margin-top: 100px;
 }
-.success-active h2{
+#success-active h2{
   font-size: 35px;
   line-height: 1;
   margin-top: 20px;
 
 }
-.success-active img{
+#success-active img{
   width: 40px;
 
 }
-.success-active p{
+#success-active p{
   font-size: 11px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.success-active button{
+#success-active button{
   width: 240px;
   height: 40px;
   border-radius: 5px;
@@ -126,13 +126,13 @@ body{
   background-color: var(--Dark-Slate-Grey);
   cursor: pointer;
 }
-.success-active button:hover{
+#success-active button:hover{
   background-color: var(--Tomato);
 }
 
 
 /* */
-.main-container{
+#main-container{
     background-color: var(--White);
     width: 700px;
     height: 505px;
