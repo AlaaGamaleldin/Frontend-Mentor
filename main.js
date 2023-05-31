@@ -3,8 +3,7 @@ let subscrib = document.getElementById("subscrbe-btn");
 let input1 = document.getElementById("sub-btn");
 let requerd = document.getElementById("requerd");
 function subscribeBtn(e){
-   
-    if(input1.value === ""){
+     if(input1.value === ""){
         requerd.style.display = "block";
         input1.style.border =  "1px solid red";
         return false;
