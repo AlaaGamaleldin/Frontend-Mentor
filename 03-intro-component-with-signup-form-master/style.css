@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-desktop.png);
+    display: block;
+    Font-size: 16px;
+    font-family: poppins;
+   
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+   
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.inputs{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 40px 20px;
+    
+    
+}
+.inputs input{
+    width: 370px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 0.5px solid rgb(230, 226, 226);
+    border-radius: 5px;
+    
+}
+.main-text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.main-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+.try-it-btn{
+    width: 440px;
+    height: 45px;
+    color: #fff;
+    background: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.alert{
+    color: red;
+    text-align: right;
+    font-size: 11px;
+    margin-top: ;
+}
+#input-btn{
+    width: 393px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(230, 226, 226);
+    border-radius: 5px;
+    background: rgb(57, 218, 143);
+    height: 40px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.inputs h5{
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+@media (max-width: 425px){
+    body{
+        height: 100%
+       
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        height: 100%;
+        padding: px;
+    }
+    
+    .main-text
+    {
+        width: 250px;
+        
+        
+    }
+    .main-text h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .main-text p{
+        font-size: 10px;
+        width: 200px;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .try-it-btn{
+        width: 230px;
+        height: 60px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .inputs{
+        width: 200px;
+    }
+    .inputs input{
+        width: 170px;
+    }
+    .input-btn{
+        width: 190px;
+    }
+    .inputs h5{
+        width: 200px;
+    }
+    footer{
+        width: 200px;
+        margin: 10%;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="main-text">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+    </div>
+    <div class="left">
+       
+        <button class="try-it-btn">Try it free 7 days then $20/mo. thereafter</button>
+       
+      <div class="inputs">
+        <form action="">
+        <input id="input-First-name" type="text" placeholder="First Name" autocomplete="" >
+        <p id="name1" class="alert"></p>
+        <input id="input-last-name" type="text" placeholder="Last Name"autocomplete="" >
+        <p id="name2" class="alert"></p>
+        <input id="input-email" type="email" placeholder="Email address"autocomplete="" >
+        <p id="name3" class="alert"></p>
+        <input id="input-password" type="password" placeholder="Password" autocomplete="current-password" >
+        <p id="name4" class="alert"></p>
+        <button id="input-btn" type="submit" onclick="return submiting()">Claim your free trial </button>
+      </form>
+        <h5>By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </h5>
+
+      </div>  
+    </div>
+  </div> 
+  
+  
+  
+
+<script src="main.js"></script>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Alaa Gamal Eldin</a>.
+    </p>
+  </footer>
+</body>
+</html>
